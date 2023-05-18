@@ -343,8 +343,8 @@ Featured Tours
   position: absolute;
   right: 0;
   bottom: 0;
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-1);
+  background: rgb(1, 233, 1);
+  color: black;
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
