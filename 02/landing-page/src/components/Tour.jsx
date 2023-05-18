@@ -10,7 +10,7 @@ const Tour = ({ image, date, title, info, location, duration, cost }) => {
             <h4>{title}</h4>
           </div>
           <p>{info}</p>
-          <div className='tour-footer'>
+          {/* <div className='tour-footer'>
             <p>
               <span>
                 <i className='fas fa-map'></i>
@@ -19,7 +19,7 @@ const Tour = ({ image, date, title, info, location, duration, cost }) => {
             </p>
             <p>from ${cost}</p>
             <p>{duration} days</p>
-          </div>
+          </div> */}
         </div>
       </article>
     )
