@@ -1,13 +1,14 @@
-import logo from "../images/logo.svg";
+import upblogo from "../images/upb/logoblanco.png";
 import { SectionLinks } from "./SectionLinks";
 import { socialLinks } from "../data/data";
 import { SocialLinks } from "./SocialLinks";
+
 export const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <img src={upblogo} className="nav-logo" alt="backroads" style={{ width: '250px' , height: '200px' }}/>
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>

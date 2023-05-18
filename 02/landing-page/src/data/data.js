@@ -1,24 +1,24 @@
-import tour1 from "../images/tour-1.jpeg";
-import tour2 from "../images/tour-2.jpeg";
-import tour3 from "../images/tour-3.jpeg";
-import tour4 from "../images/tour-4.jpeg";
+import actividad1 from "../images/upb/actividad1.png";
+import actividad2 from "../images/upb/actividad2.png";
+import actividad3 from "../images/upb/actividad3.png";
+import actividad4 from "../images/upb/actividad4.png";
 
 export const links = [
   {
     id: 1,
-    link: "home",
+    link: "Inicio",
   },
   {
     id: 2,
-    link: "about",
+    link: "Nosotros",
   },
   {
     id: 3,
-    link: "services",
+    link: "Carrera",
   },
   {
     id: 4,
-    link: "tours",
+    link: "Actividades",
   },
 ];
 
@@ -33,70 +33,60 @@ export const socialLinks = [
   },
   {
     id: 3,
-    link: "squarespace",
+    link: "instagram",
   },
 ];
 
 export const services = [
   {
     id: 1,
-    icon: "fas fa-wallet fa-fw",
-    title: "saving money",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-book fa-fw",
+    title: "Materias Troncales",
+    text: "Contamos con materias donde podremos explotar al maximo nuestro potencial, siguiendo una malla actualizada.",
   },
   {
     id: 2,
-    icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-laptop fa-fw",
+    title: "Certificaciones",
+    text: "Contamos con certificaciones en diferentes areas mas especificas, como la certificacion en React, Android, AWS, entre otros.",
   },
   {
     id: 3,
-    icon: "fas fa-socks fa-fw",
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-briefcase fa-fw",
+    title: "Electivas",
+    text: "Aqui nos permite explorar un poco mas otras ramas como ser la de administracion de sistemas, QA, entre otras.",
   },
 ];
 
 export const tours = [
   {
     id: 1,
-    image: tour1,
+    image: actividad1,
     date: "august 26th, 2020",
-    title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "china",
-    duration: 6,
-    cost: 2100,
+    title: "Bailes",
+    info: ` Se cuenta con diferentes actividades realcionadas a los bailes como ser el baile moderno, folklorico entre otros.`,
+
   },
   {
     id: 2,
-    image: tour2,
+    image: actividad2,
     date: "october 1th, 2020",
-    title: "best of java",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 11,
-    cost: 1400,
+    title: "Actividades recreativas",
+    info: ` Con el fin de unir mas la carrera y congeniar entre todos se realizan actividades extracurriculares donde podemos divertirnos.`,
   },
   {
     id: 3,
-    image: tour3,
+    image: actividad3,
     date: "september 15th, 2020",
-    title: "explore hong kong",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "hong kong",
-    duration: 8,
-    cost: 5000,
+    title: "Dia D",
+    info: ` La culminacion de todas las actividades, una competencia donde todos compiten por ganar el premio mayor y trabajan en equipo.`,
+
   },
   {
     id: 4,
-    image: tour4,
+    image: actividad4,
     date: "december 5th, 2019",
-    title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "kenya",
-    duration: 20,
-    cost: 3300,
+    title: "Actividades para todos los gustos",
+    info: ` Contamos con actividades diversas desde juegos mentales, galerias de arte, actuaciones, entre otras.`,
   },
 ];

@@ -4,7 +4,7 @@ export const SocialLinks = (props) => {
   return (
     <li>
       <a
-        href={`https://www.${social}.com`}
+        href={`https://www.${social}.com/upblpz`}
         target="_blank"
         className={itemClass}
       >

@@ -3,8 +3,8 @@ import Title from './Title'
 import Tour from './Tour'
 const Tours = () => {
   return (
-    <section className='section' id='tours'>
-      <Title title='featured' subTitle='tours' />
+    <section className='section' id='Actividades'>
+      <Title title='Nuestras' subTitle='Actividades' />
 
       <div className='section-center featured-center'>
         {tours.map((tour) => {
