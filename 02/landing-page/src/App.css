@@ -425,7 +425,7 @@ Footer
   transition: var(--transition);
 }
 .footer-link:hover {
-  color: var(--clr-primary-5);
+  color: rgb(0, 240, 0);
 }
 .footer-icon {
   font-size: 2rem;
